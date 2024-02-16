@@ -49,21 +49,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn7"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
                 android:text="8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn8"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
+
 
             <Button
                 android:text="9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn9"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp" />
 
             <Button
                 android:text="X"
@@ -71,7 +75,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnFois"
                 android:onClick="setOperator"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
         </TableRow>
 
         <!-- Second TableRow for numbers -->
@@ -84,21 +89,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn4"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
                 android:text="5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn5"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
                 android:text="6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn6"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
                 android:text="/"
@@ -106,7 +114,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnDiv"
                 android:onClick="setOperator"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
         </TableRow>
 
         <!-- Third TableRow for numbers -->
@@ -119,21 +128,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn1"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
                 android:text="2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn2"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
                 android:text="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn3"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
                 android:text="-"
@@ -141,7 +153,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnMoins"
                 android:onClick="setOperator"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
         </TableRow>
 
         <!-- Fourth TableRow for operators -->
@@ -155,22 +168,25 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnReset"
                 android:onClick="setOperator"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
                 android:text="0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnZero"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
             <Button
-                android:text=","
+                android:text="⌫"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/btnDecimal"
+                android:id="@+id/btnReturn"
                 android:onClick="setOperator"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
 
             <Button
@@ -179,7 +195,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnPlus"
                 android:onClick="setOperator"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
 
         </TableRow>
 
@@ -197,7 +214,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:onClick="setOperator"
-                style="@style/DigitBtnStyle"/>
+                style="@style/DigitBtnStyle"
+                android:textSize="20sp"/>
         </TableRow>
 
     </TableLayout>

@@ -55,6 +55,29 @@ public class MainActivity extends AppCompatActivity {
                 clear();
             }
         });
+
+        Button btnReturn = findViewById(R.id.btnReturn);
+        btnReturn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                removeLastDigit();
+            }
+        });
+    }
+
+    // Method to remove the last digit from the displayed number
+    private void removeLastDigit() {
+        String currentText = screen.getText().toString();
+        if (!currentText.equals("0")) {
+            // If the current text is not "0", remove the last character
+            String newText;
+            if (currentText.length() > 1) {
+                newText = currentText.substring(0, currentText.length() - 1);
+            } else {
+                newText = "0"; // If there's only one digit left, set the text to "0"
+            }
+            screen.setText(newText);
+        }
     }
 
     private void updateDisplay() {
